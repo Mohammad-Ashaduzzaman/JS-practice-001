@@ -1,3 +1,4 @@
+// loging page commands 
 document.getElementById('login-button').addEventListener('click',function(){
     const userIdElement = document.getElementById('user-id');
     const userId= userIdElement.value;
@@ -10,4 +11,7 @@ document.getElementById('login-button').addEventListener('click',function(){
     }else{
         alert('Invalid user ID or Pass');
     }
-})
+});
+
+
+
